@@ -71,7 +71,7 @@ ARDUINO_USER_DIR ?= ${HOME}/Arduino
 AVR_TOOLS_PATH ?=
 
 #Programmer configuration
-UPLOAD_RATE        ?= 57600
+UPLOAD_RATE        ?= 115200
 AVRDUDE_PROGRAMMER ?= arduino
 # on most linuxes this will be /dev/ttyACM0 or /dev/ttyACM1
 UPLOAD_PORT        ?= /dev/ttyUSB0
